@@ -1,4 +1,4 @@
-from ctypes.wintypes import FLOAT
+
 
 
 salario = float(input('Digite seu salario: '))
