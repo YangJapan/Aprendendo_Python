@@ -1,4 +1,4 @@
-nome = input('Digite seu nome completo: ')
+nome = input('Digite seu nome completo: ').strip()
 print(f'O nome todo em maiusculo: {nome.upper()}')
 print(f'O nome todo em minusculo: {nome.lower()}')
 lista = nome.split()
