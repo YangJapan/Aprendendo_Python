@@ -1,7 +1,0 @@
-nome = input('Digite seu nome completo: ').strip()
-print(f'O nome todo em maiusculo: {nome.upper()}')
-print(f'O nome todo em minusculo: {nome.lower()}')
-lista = nome.split()
-semEspaco = nome.replace(' ', '')
-print(f'O nome tem: {len(semEspaco)}, letras sem contar o espaço')
-print(f'O primeiro nome tem: {len(lista[0])}, letras')
