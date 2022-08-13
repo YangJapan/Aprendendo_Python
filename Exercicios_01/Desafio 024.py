@@ -1,0 +1,5 @@
+cidade = input('Digite o nome da sua cidade: ')
+cidade = cidade.title()
+lista = cidade.split()
+print (f'A cidade de: {cidade.title()}, começa com santo no nome? ', end='')
+print('Santo' in lista[0])
