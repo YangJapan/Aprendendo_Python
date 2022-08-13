@@ -1,6 +1,8 @@
-n = int(input('Digite um numero para ver sua tabuada: '))
-print('-' * 32)
-print(f'{n} multiplicado por  1 é  = {n*1}')
+import colorama
+from colorama import Fore, Style
+n = int(input(Fore.GREEN+'Digite um numero para ver sua tabuada: '))
+print(Fore.WHITE+F'-' * 32)
+print(Fore.YELLOW + f'{n} multiplicado por  1 é  = {n*1}')
 print(f'{n} multiplicado por  2 é  = {n*2}')
 print(f'{n} multiplicado por  3 é  = {n*3}')
 print(f'{n} multiplicado por  4 é  = {n*4}')
@@ -10,4 +12,4 @@ print(f'{n} multiplicado por  7 é  = {n*7}')
 print(f'{n} multiplicado por  8 é  = {n*8}')
 print(f'{n} multiplicado por  9 é  = {n*9}')
 print(f'{n} multiplicado por 10 é  = {n*10}')
-print('-' * 32)
+print(Fore.WHITE+'-' * 32)

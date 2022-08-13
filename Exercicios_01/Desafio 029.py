@@ -1,6 +1,9 @@
-km = float(input('Digite a velocidade: '))
+import colorama
+from colorama import Fore, Style
+
+km = float(input(Fore.LIGHTMAGENTA_EX+'Digite a velocidade: '))
 if km > 80:
-    print('Velocidade acima do limite!')
+    print(Fore.YELLOW+'Velocidade acima do limite!')
     print(f'A multa foi de: {(km - 80) * 7}R$')
 else:
-    print('Velocidade abaixa do limite.')
+    print(Fore.WHITE+'Velocidade abaixa do limite.')
