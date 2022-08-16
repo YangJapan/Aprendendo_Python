@@ -6,7 +6,7 @@ limite = ((salariomensal * 30) /100)
 prestaçãoanual = valor / tempo
 prestaçãomensal = prestaçãoanual / 12
 
-if prestaçãomensal < limite:
+if prestaçãomensal <= limite:
     print('Emprestimo garantido!')
 else:
     print('Emprestimo negado!')
